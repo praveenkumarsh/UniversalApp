@@ -6,7 +6,16 @@ The frontend for the UniversalApp platform, built with **React**, **Vite**, and 
 
 ## 📸 Screenshots
 
-> _Add screenshots here showing the dashboard, chat interface, pastebin, URL shortener, file manager, and code compiler._
+### Signup Page
+![Signup Page](screenshots/Signup.jpg)
+### Login Page
+![Login Page](screenshots/LoginPage.jpg)
+### App Selector
+![App Selector](screenshots/ApSelector.jpg)
+### Update profile
+![Update Profile](screenshots/UpdateProfile.jpg)
+### Profile Update and Logout
+![Profile Update And Logout](screenshots/ProfileUpdateAndLogout.jpg)
 
 ---
 

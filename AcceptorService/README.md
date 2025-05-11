@@ -6,15 +6,10 @@ The **AcceptorService** is the central gateway and authentication service for th
 
 ## 📸 Screenshots
 
-<!-- Add system architecture image here -->
-![System Architecture](screenshots/architecture.png)
-
-<!-- Add screenshot of Swagger UI here -->
-![Swagger UI](screenshots/swagger.png)
-
-<!-- Add screenshot of Login flow or API usage here -->
-![Login Flow](screenshots/login.png)
-
+### Swagger UI
+![SwaggerUI](screenshots/SwaggerUI.jpg)
+![SwaggerUI](screenshots/SwaggerUI2.jpg)
+![SwaggerUI](screenshots/SwaggerUI3.jpg)
 ---
 
 ## 🚀 Features
@@ -143,6 +138,12 @@ POST /api/auth/login
 
 ```http
 GET /oauth2/callback?code=xyz123
+```
+
+### Current User Details
+
+```http
+GET /api/auth/me
 ```
 
 ---

@@ -6,8 +6,16 @@ The **PasteBin Service** is a lightweight text storage microservice within the *
 
 ## 📸 Screenshots
 
-> _Add UI screenshots from UniversalAppUI showing paste creation, paste viewing, and list display._
-
+### Swagger UI
+![SwaggerUI](screenshots/Swagger.jpg)
+### Main UI
+![UI](screenshots/UI.jpg)
+### Main UI - Options
+![UI Options](screenshots/UIOptions.jpg)
+### Edit Paste
+![Edit Paste](screenshots/EditPaste.jpg)
+### Paste View
+![Paste View](screenshots/PasteView.jpg)
 ---
 
 ## 🚀 Features
@@ -84,13 +92,13 @@ Create a new paste.
 
 ---
 
-### GET `/api/pastes/{id}`
+### GET `/api/paste/{id}`
 
 Retrieve a paste by ID.
 
 ---
 
-### GET `/api/pastes/user`
+### GET `/api/paste`
 
 List all pastes created by the current authenticated user.
 

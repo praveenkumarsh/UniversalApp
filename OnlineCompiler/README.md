@@ -6,7 +6,16 @@ The **Online Compiler** is a secure and extensible microservice within the **Uni
 
 ## 📸 Screenshots
 
-> _Add screenshots here of code submission UI, output terminal, and error display from UniversalAppUI._
+### Swagger UI
+![SwaggerUI](screenshots/Swagger.jpg)
+### Main UI
+![UI](screenshots/UI.jpg)
+### Java Online Compiler
+![JavaOnlineCompiler](screenshots/JavaOnlineCompiler.jpg)
+### Cpp Online Compiler
+![CppOnlineCompiler](screenshots/CppOnlineCompiler.jpg)
+### Python Online Compiler
+![PythonOnlineCompiler](screenshots/PythonOnlineCompiler.jpg)
 
 ---
 

@@ -6,7 +6,13 @@ ChatApp is a microservice in the UniversalApp platform that provides **1-to-1 re
 
 ## 📸 Screenshots
 
-> _Add screenshots here showing the chat interface in the frontend, typing indicators, online status, etc._
+### Swagger UI
+![SwaggerUI](screenshots/Swagger.jpg)
+### App Selection
+![SwaggerUI](screenshots/App_Selector.jpg)
+### ChatApp UI
+![ChatAppUI](screenshots/UI.jpg)
+---
 
 ---
 
@@ -66,7 +72,9 @@ ChatAppService/
 
 ## 🌐 API & WebSocket Endpoint
 
-* REST API: `http://<host>:8081/api/messages`
+* REST API: GET - `http://<host>:8081/api/messages` - Retrieve Messages
+* REST API: POST- `http://<host>:8081/api/send` - Send Message
+* REST API: GET - `http://<host>:8081/api/recent-users` - List of recently connected users
 * WebSocket: `ws://<host>:8081/ws/chat`
 
 WebSocket connection requires a valid JWT in the `Authorization` header during handshake.

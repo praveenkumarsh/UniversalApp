@@ -6,7 +6,17 @@ The FileManager service is a microservice within the **UniversalApp** ecosystem 
 
 ## 📸 Screenshots
 
-> _Add UI screenshots here showing file upload, preview, and listing from the frontend (UniversalAppUI)._
+### Swagger UI
+![SwaggerUI](screenshots/Swagger.jpg)
+### My Files
+![MyFiles](screenshots/MyFiles.jpg)
+### RecycleBin
+![RecycleBin](screenshots/RecycleBin.jpg)
+### My Files - Options
+![SwaggerUI](screenshots/DownloadDelete.jpg)
+### RecycleBin - Options
+![SwaggerUI](screenshots/RecycleBinOptions.jpg)
+---
 
 ---
 
@@ -80,7 +90,12 @@ docker run -d -p 8084:8084 --env-file .env filemanager-service
 
 * `POST /api/files/upload` – Upload a file
 * `GET /api/files/{id}` – Download file
-* `GET /api/files/user` – List all files for the authenticated user
+* `GET /api/files` – List all files for the authenticated user
+* `GET /api/files/recyclebin` – List all recyclebin files for the authenticated user
+* `DELETE /api/files/recyclebin` – Delete all recyclebin files for the authenticated user
+* `DELETE /api/files/{fileName}` – Move file to recyclebin for the authenticated user
+* `DELETE /api/files/{fileName}/hard` – Permanent Delete file from recyclebin for the authenticated user
+* `OUT /api/files/{fileName}/restore` – Restore deleted file file from recyclebin for the authenticated user
 
 > All endpoints require JWT Authorization in the `Authorization` header.
 

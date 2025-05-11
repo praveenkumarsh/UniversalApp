@@ -6,7 +6,16 @@ The **ShortURL Service** is a high-performance URL shortening microservice withi
 
 ## 📸 Screenshots
 
-> _🖼 Add screenshots from the UI showing URL shortening form, result view, and My URLs list._
+### Swagger UI
+![SwaggerUI](screenshots/Swagger.jpg)
+### Main UI
+![UI](screenshots/UI.jpg)
+### Main UI - Recent Shortend URLS - Win and Without Custom Alias
+![With and Without Custom Alias](screenshots/WithAndWithoutCustomAlias.jpg)
+### Redirecting to Original URL
+![Redirecting](screenshots/Redirecting.jpg)
+### Opened Original URL
+![Opened](screenshots/Opened.jpg)
 
 ---
 
@@ -74,19 +83,19 @@ Shorten a new URL.
 
 ```json
 {
-  "shortUrl": "https://app.com/s/article123"
+  "shortUrl": "https://universalappbackend.com/shorturl/article123"
 }
 ```
 
 ---
 
-### GET `/s/{alias}`
+### GET `/shorturl/{alias}`
 
 Redirect to original URL. Tracked with click count.
 
 ---
 
-### GET `/api/urls/user`
+### GET `/api/shorturl/fetchall`
 
 List all short URLs created by the authenticated user.
 
